@@ -1,0 +1,113 @@
+/* Resetando margens e padding e aplicando a fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Configurações do body com cores mais escuras e flexbox para centralizar */
+  body {
+    min-height: 100vh;
+    background-color: #34495e; /* Cor de fundo mais escura e suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    transition: background-color 0.5s ease; /* Suaviza a transição de fundo */
+    flex-direction: column; /* Organiza o conteúdo de forma vertical */
+  }
+  
+  /* Estilo do container principal */
+  .container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 800px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Estilo do título */
+  header h2 {
+    font-size: 2rem;
+    color: #2c3e50; /* Cor escura para o título */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do parágrafo e texto principal */
+  .para {
+    margin-top: 12px;
+    font-size: 18px;
+    color: #2c3e50; /* Cor escura para o texto */
+  }
+  
+  /* Estilo do conteúdo extra que será alternado */
+  .para .content-container-2 {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #2c3e50; /* Cor escura para o conteúdo adicional */
+    line-height: 1.6;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Estilo do botão */
+  .btn {
+    background-color: #3498db; /* Cor azul vibrante */
+    color: #fff;
+    padding: 10px 45px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover no botão */
+  .btn:hover {
+    background-color: #2980b9; /* Azul mais escuro quando o mouse passa por cima */
+  }
+  
+  /* Alteração de fundo e cor do botão quando o conteúdo é expandido */
+  .body-expanded {
+    background-color: #f39c12; /* Cor de fundo amarela quando expandido */
+  }
+  
+  .btn-expanded {
+    background-color: #e74c3c; /* Cor do botão vermelha quando expandido */
+  }
+  
+  .content-container-2.toggle {
+    display: block; /* Torna o conteúdo visível */
+  }
+  
+  /* Estilo para a seção de autor do projeto */
+/* Estilo para a seção de autor do projeto */
+.author-section {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #2c3e50; /* Fundo escuro para a área do autor */
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Suaviza a transição de cor de fundo */
+  }
+  
+  /* Links do autor com cores ajustadas */
+  .author-section a {
+    color: #3498db; /* Cor do link ajustada para azul */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  /* Efeito de hover nos links */
+  .author-section a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+    color: #2980b9; /* Cor do link ao passar o mouse */
+  }
+  
